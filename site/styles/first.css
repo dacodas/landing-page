@@ -1,0 +1,94 @@
+div#landing-screen
+{
+    display: table;
+    height:100vh;
+    width: 100vw;
+    background: url('/images/waterfall.jpg') no-repeat center center; 
+}
+
+div#landing-screen-2
+{
+    display: table;
+    height:100vh;
+    width: 100vw;
+    background: url('/images/log.jpg');
+    background-size: cover;
+}
+
+div#landing-screen-3
+{
+    display: table;
+    height: 100vh;
+    width: 100vw;
+}
+
+div#landing-screen-3 div#picture img
+{
+    width: 50vw;
+}
+
+div#landing-screen-3 div#picture img
+{
+    padding: 1em;
+}
+
+div#footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+div#footer ul
+{
+    display: inline-block;
+    margin: auto;
+    padding: 0;
+}
+
+div#footer li
+{
+    display: inline-block;
+    padding: 0.5em;
+}
+
+
+div#greeting
+{
+    background-color: white;
+
+    display: table;
+    /* width: 400px; */
+    margin: 10 auto;
+    padding: 10;
+
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+body 
+{
+    margin: 0;
+}
+
+/* https://stackoverflow.com/questions/396145/how-to-vertically-center-a-div-for-all-browsers */
+div.valign-table
+{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+div.valign-cell
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.valign-content
+{
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
